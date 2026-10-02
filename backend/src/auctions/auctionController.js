@@ -2,7 +2,6 @@ import createHttpError from "http-errors";
 import auctionModel from "../models/auctionModel.js";
 import userModel from "../models/userModel.js";
 import sendSMS from "../middlewares/twilioService.js";
-import js from "@eslint/js";
 async function createAuction(req, res, next) {
   const {
     product,
