@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
     },
     location:{
         type: String,
-        required: true
+        default: "Not specified"
     },
     profileImage: {
         type: String,
